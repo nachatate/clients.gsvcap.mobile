@@ -1,0 +1,363 @@
+/* Corporate stylesheet overrides & new styles */
+/* Val D'Aquila, 3/11/11 */
+
+
+/* 
+ * Full site overrides
+ */
+ 
+body {
+	font-size:13px;	
+	color:#4b4b4b;
+}
+a {
+	color:#6081e8;
+	text-decoration:none;
+}
+ 
+a:hover {
+	text-decoration:underline;	 
+}
+td, th, p, dd, dt, input, select, textarea, .emailText, label {
+    font-size: 13px;
+}
+td, th, p, dd, dt, .emailText, label { 
+ line-height:20px;
+}
+h2, h3, h4, h5, th, caption {
+	color:#25b74e;
+}
+h3, h5, th, caption {
+	text-transform:uppercase;	
+}
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+ 
+ 
+header {
+	z-index:1;	
+}
+
+
+h1.page-headline {
+	line-height:normal;	
+	color: #6081e8;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+#menu_container {
+	float:none;
+	width:auto;
+	margin-bottom:10px;
+	text-align:left;
+}
+
+#pop2 {
+	left:0;
+	right:auto;	
+}
+
+#wrapper {
+	position:relative;	
+}
+
+.col-large {
+	padding-right:65px;
+	width:auto;	
+}
+
+.main-content p {
+	width:auto !important;
+	margin-bottom:10px;	
+}
+
+.main-content ul {
+	margin-left:20px;	
+}
+
+.main-content li {
+	background-image:url(/images/bullet-green.gif);
+	background-position:left 8px;
+	background-repeat:no-repeat;
+    color: #4b4b4b;
+	line-height:20px;
+    list-style-position: inside;
+    list-style-type: none;
+	list-style-image:none;
+    padding-bottom: 5px;
+    padding-left: 13px;
+}
+
+.col-small  {
+	float:left;
+}
+
+.main-nav {
+	z-index:30;		
+}
+
+.main-nav .last .children {
+	display:block;
+	left:-433px;
+	width:600px;
+	z-index:20;	
+}
+
+.main-nav .last .children .children {
+	left:0px;
+	width:400px;	
+}
+
+.main-nav .last .children #subnavStock {
+	left:-225px;
+}
+
+#right_nav ul#wshnav {
+	padding:15px;	
+}
+
+#right_nav ul#wshnav li {
+	font-size:13px;
+}	
+
+#right_nav ul#wshnav li a {
+	color:#fff;
+}	
+
+#right_nav ul#wshnav li a.selected {
+	color:#EDC235;
+}
+
+/* 
+ * Stock quote/chart widget overrides
+ */
+
+.wsh_pl15 {
+	padding-left:25px;	
+}
+
+#wsh_miniQuote {
+	border:0 none;	
+	margin-bottom:0;
+	width:212px;
+}
+
+.wsh_miniQuote_Head {
+	background-color:#004052;	
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	padding:7px 8px;
+}
+
+/* 
+ * toolbar overrides
+ */
+#search {
+	position:absolute;
+	right:275px;
+	top:97px;
+	z-index:10;	
+}
+
+#search .image_input {
+	vertical-align:middle;	
+}
+
+#toolbar {
+	width:auto;
+	position:absolute;
+	top:90px;
+	right:-3px; 
+	z-index:10;
+}
+
+.jqDockLabel {
+	padding-left:3px;
+	top:50px !important;
+	width:45px;
+}
+
+.jqDockLabel .jqDockLabelText {
+	color:#000;
+	font-size:10px;	
+}
+
+/* 
+ * Corp Gov overrides 
+ */
+ 
+.wsh_briefcaseLegend {
+	font-size:12px;
+	line-height:21px;
+}
+
+/* 
+ * Default table/form style overrides 
+ */
+/*.wsh_menuselect {
+    padding-bottom: 12px;
+} 
+ 
+.dataTable { 
+	border:1px solid #017595;
+	border-collapse:separate;
+}
+
+.dataTable td {
+	border-top:1px solid #017595;
+	border-bottom:0 none;
+}
+
+.dataTable tr.summary td {
+	border-top:1px dotted #017595;	
+}
+
+.dataTable td.dataTableBottom td {
+    border: 0 none;
+}
+
+.dataTable th {
+    background-color:#017595;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 15px;
+    margin:0;
+    padding: 3px 0 4px 5px;
+}
+
+.dataTable th a {
+	color:#EDC235;	
+}
+
+.primary, .primary td {
+	background-color:#fff;
+}
+.alternate, .alternate td {
+    background-color: #FEF9EF;
+}
+
+.wsh_expCol_Title {
+	background-image:url(/images/grav_bg.gif);
+	background-position:left center;
+	background-repeat:repeat-x;
+	border:1px solid #fff;
+	border-radius: 5px;
+	box-shadow:  0px 5px 25px #c9c9c9, -5px 5px 25px #c9c9c9, -5px -5px 25px #c9c9c9, 0px -5px 25px #c9c9c9;  
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-box-shadow:  0px 5px 25px #c9c9c9, -5px 5px 25px #c9c9c9;  
+	-moz-box-shadow: 0px 5px 25px #c9c9c9, -5px 5px 25px #c9c9c9; 
+	zoom:1; 
+}
+
+.wsh_expCol_Title img {
+	float:left !important;
+}	
+
+.wsh_expCol_Content {
+	background-color:#fff;
+	border-radius: 5px;
+	box-shadow:  0px 5px 25px #c9c9c9, -5px 5px 25px #c9c9c9, -5px -5px 25px #c9c9c9, 0px -5px 25px #c9c9c9;  
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-box-shadow:  0px 5px 25px #c9c9c9, -5px 5px 25px #c9c9c9;  
+	-moz-box-shadow: 0px 5px 25px #c9c9c9, -5px 5px 25px #c9c9c9;  
+	font-size:12px;
+	line-height:21px;
+}	
+
+.wsh_pl20 {
+	font-size:12px;	
+	line-height:20px;
+	padding-left:25px;
+}
+*//* 
+ * News style overrides 
+ */
+ 
+h5.wsh_news {
+    background-color:#017595;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 22px;
+    margin:0;
+    padding-left: 5px;
+}
+
+/* 
+ * Bios override 
+ */
+ 
+.wsh_expCol_All {
+	font-size:12px;
+	font-weight:bold;
+}
+
+.wsh_expCol_All a {
+	color:#78A22F;
+	text-decoration:none;
+}
+
+.wsh_expCol_Sec, .wsh_expCol_Sec a {
+	color:#6081e8; 
+	font-size:14px;
+	line-height:18px;
+	text-decoration:none;
+}
+
+.wsh_expCol_Sec .title {
+	font-size:12px;
+	font-style:italic;	
+	color:#666;
+	line-height:15px;
+}
+
+.wsh_expCol_Content .dataTable {
+	border-top:0 none;
+	margin-top:15px;
+}
+
+.wsh_expCol_Content {
+	color: #4b4b4b;  
+	font-size: 13px; 
+	line-height: 20px;	
+}
+
+.disclaimer {
+	margin-top:20px;	
+}
+
+.wsh_bioPic {
+	float:right !important;
+}
+
+.wsh_commMem img {
+	float:left !important;	
+}
+
+/*
+ * Search page overrides 
+ */
+ 
+.searchTable {
+	border:0 none;	
+}
+
+.searchTable label {
+	white-space:nowrap;	
+}
+
+ul.family li {
+	min-width: 160px;
+	margin: 0;
+}

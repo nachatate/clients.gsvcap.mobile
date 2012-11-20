@@ -1,0 +1,239 @@
+input[type="checkbox"],
+input[type="radio"] {
+	vertical-align: baseline;
+}
+
+a.button,
+a.button-primary,
+a.button-secondary {
+	display: inline-block;
+	vertical-align: baseline;
+}
+
+td .table-col { width: 250px !important;}
+
+.wp-table td .table-col-date {
+	width: 100px !important;
+}
+.wp-note {
+	font-style: italic;
+	font-size: 10px;
+	color: #999;
+	padding-left: 10px;
+}
+
+.wp-delete {
+	color: #900;
+	font-size: 11px;
+	vertical-align: baseline;
+	padding-left: 10px;
+}
+
+.button-highlighted {
+	margin-top: 5px;
+}
+
+.cp-product-description-bullets-list-item,
+.cp-product-single-list-bullets-list-item {
+	font-size: 0;
+	padding: 0;
+	margin: 0;
+}
+
+input,
+select,
+textarea {
+	margin: 0;
+	font-size: 12px;
+}
+
+.cp-group {
+	padding-bottom: 5px;
+}
+
+.cp-product-attribute-section {
+	padding-bottom: 25px;
+}
+
+.cp-product-attribute-section-title {
+	font-size: 14px;
+	padding-bottom: 5px;
+	display: block;
+	font-weight: bold;
+}
+
+.cp-product-price-input {
+	width: 60px;
+}
+
+.wp-prod-description-bullets-group,
+.wp-prod-attribute-list-group {
+	padding-bottom: 5px;
+	font-size: 0;
+}
+
+.wp-label {
+	display: inline-block;
+	vertical-align: top;
+	padding-top: 6px;
+	width: 100px;
+	padding-right: 10px;
+	font-weight: bold;
+	font-size: 11px;
+	line-height: 1;
+}
+
+.wp-checkbox-label {
+	font-weight: bold;
+	font-size: 11px;	
+	line-height: 1;
+}
+
+.cp-product-attribute-description-bullets .cp-product-description-bullets-list-item {
+	margin-bottom: 10px;
+}
+
+.wp-main-image-src {
+	display: none;
+	float: left;
+	margin-right: 10px;
+	border: 1px solid #DFDFDF;
+	padding: 5px;
+}
+
+#wp-main-image-upload, #wp-content-with-image-upload {
+	margin-bottom: 10px;
+	margin-right: 15px;
+	float: left;
+	padding: 1px;
+}
+.wp-content-with-image-two-upload .wp-upload-thumb { display: none;}
+
+
+#wp-multi-image-upload .qq-uploader, #wp-multi-image-two-upload .qq-uploader, #wp-multi-image-textarea-upload .qq-uploader{ 
+	width: 500px;
+}
+
+.qq-uploader {
+	border: 5px solid white;
+	outline: 1px solid #DFDFDF;
+	background-color: #DFDFDF;
+	width: 150px;
+	height: 150px;
+	position: relative;
+}
+
+#wp-multi-image-upload .qq-upload-drop-area, #wp-multi-image-two-upload .qq-upload-drop-area, #wp-multi-image-textarea-upload .qq-upload-drop-area{
+	width: 500px;
+}
+
+.qq-upload-drop-area {
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.wp-main-image-upload-instruction {
+	color: white;
+    display: block;
+    font-weight: bold;
+    line-height: 1.5;
+    position: absolute;
+    text-align: center;
+    text-transform: uppercase;
+    top: 60px;
+}
+
+.qq-upload-spinner {
+	background: url(../i/loading.gif) no-repeat left top;
+	display: block;
+	width: 32px;
+	height: 32px;
+	position: absolute;
+	left: 59px;
+	top: 59px;
+}
+
+.qq-upload-size {
+	position: absolute;
+	font-size: 40px;
+	color: #ccc;
+	top: 70px;
+	left: 0;
+	text-align: center;
+	width: 150px;
+}
+
+.qq-upload-cancel {
+	position: absolute;
+	bottom: 15px;
+	font-size: 11px;
+	color: #960;
+	width: 150px;
+	text-align: center;
+	display: block;
+}
+
+.qq-upload-list {
+	padding: 0;
+	font-size: 0;
+}
+
+.qq-upload-success,
+.qq-upload-file,
+.qq-upload-spinner {
+	display: none;
+}
+
+.qq-upload-details {
+	margin: 0;
+}
+
+.wp-main-image-details-list {
+	float: left;
+	display: none;
+}
+
+.wp-main-image-details-list-title,
+.wp-main-image-details-list-desc {
+	display: block;
+	float: left;
+	padding-bottom: 6px;
+	margin-bottom: 0;
+}
+
+.wp-main-image-details-list-title {
+	font-weight: bold;
+	clear: left;
+	padding-right: 5px;
+	width: 80px;
+}
+
+.wp-main-image-information {
+	overflow: hidden;
+	padding-bottom: 5px;
+}
+
+#add_image,
+.wp-main-image-note,
+.wp-main-image .wp-delete {
+	display: none;
+}
+
+.wp-table th {
+	text-align: left;
+}
+.wp-table input[type="text"] {
+	text-align: left;
+	width: 100px;
+}
+
+
+.upcoming_dates {
+	padding-bottom: 30px;
+}
+
+
+.wp-multi-image-details-list { display: none;}

@@ -1,0 +1,3 @@
+[12-Jan-2012 05:38:12] PHP Parse error:  syntax error, unexpected T_IF in /home/brand/public_html/dev/gsv/v2/alpha/mailchimp/store-address.php on line 20
+[12-Jan-2012 13:01:28] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting T_STRING or T_VARIABLE or '{' or '$' in /home/brand/public_html/dev/gsv/v2/alpha/mailchimp/store-address.php on line 35
+[12-Jan-2012 13:03:01] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/brand/public_html/dev/gsv/v2/alpha/mailchimp/store-address.php on line 35
